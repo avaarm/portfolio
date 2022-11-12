@@ -1,6 +1,6 @@
 {
   "name": "react_portfolio",
-  "homepage": "https://avaarm.github.io/portfolio/",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -27,5 +27,8 @@
       "react-app",
       "react-app/jest"
     ]
+  },
+  "devDependencies": {
+    "netlify-cli": "^12.1.1"
   }
 }
