@@ -40,7 +40,7 @@ function TechnicalSkills(props) {
                   
                 </div>
             </CardContainer>
-            <Header padding={70} title="Technical Skills" />
+            <Header padding={70} title="Other Technical Skills" />
             <CardContainer>
                 <div className="uk-child-width-1-3@m uk-grid-match" uk-grid="true" id="skills-section">
                     <SkillsCard
