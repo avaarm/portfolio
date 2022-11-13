@@ -13,33 +13,6 @@ function TechnicalSkills(props) {
     return (
         <BackgroundImage image={imageURL} >
             <Navbar />
-            <Header padding={70} title="Technical Skills" />
-            <CardContainer>
-                <div className="uk-child-width-1-3@m uk-grid-match" uk-grid="true" id="skills-section">
-                    <SkillsCard
-                        skills={frontend}
-                        title="Frontend"
-                        icon="users"
-                        name="client"
-                        animate="slide-left"
-                    />
-                    <SkillsCard
-                        skills={backend}
-                        title="Backend"
-                        icon="server"
-                        name="server"
-                        animate="slide-up"
-                    />
-                    <SkillsCard
-                        skills={design}
-                        title="Design & Other"
-                        icon="nut"
-                        name="design"
-                        animate="slide-right"
-                    />
-                  
-                </div>
-            </CardContainer>
             <Header padding={70} title="Biotech & Clinical Skills" />
             <CardContainer>
                 <div className="uk-child-width-1-3@m uk-grid-match" uk-grid="true" id="skills-section">
@@ -62,6 +35,33 @@ function TechnicalSkills(props) {
                         title="Instruments & Cells"
                         icon="server"
                         name="server"
+                        animate="slide-right"
+                    />
+                  
+                </div>
+            </CardContainer>
+            <Header padding={70} title="Technical Skills" />
+            <CardContainer>
+                <div className="uk-child-width-1-3@m uk-grid-match" uk-grid="true" id="skills-section">
+                    <SkillsCard
+                        skills={frontend}
+                        title="Frontend"
+                        icon="users"
+                        name="client"
+                        animate="slide-left"
+                    />
+                    <SkillsCard
+                        skills={backend}
+                        title="Backend"
+                        icon="server"
+                        name="server"
+                        animate="slide-up"
+                    />
+                    <SkillsCard
+                        skills={design}
+                        title="Design & Other"
+                        icon="nut"
+                        name="design"
                         animate="slide-right"
                     />
                   
