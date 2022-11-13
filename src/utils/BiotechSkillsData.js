@@ -23,7 +23,14 @@ const Administrative= [
     "Collaborating with clients & internal departments",
     "Onboarding of clinical instruments such as the Xuri",
     "Familiarity with the IND process ",
-    "Project management using JIRA"
+    "Project management using JIRA",
+    "CMC review",
+    "IND submission",
+    "Design & execution of shakedown runs prior to engineering runs",
+    "Technical Development Reports post shakedown & engineering runs",
+    "Collaborating with clients/ sponsors, physicians, as well as PIs involved in each projects",
+    "Creation of an expected study budget"
+
 ];
 
 const Instruments = [
